@@ -16,54 +16,35 @@
     </filter>
   </defs>
   
-  <!-- Рулон бумаги (левый) -->
-  <ellipse cx="50" cy="100" rx="25" ry="80" fill="url(#rollGrad)" filter="url(#shadow)">
-    <animate attributeName="rx" values="25;25;25" dur="3s" begin="0s" fill="freeze"/>
-  </ellipse>
+  <!-- Левый рулон -->
+  <ellipse cx="50" cy="100" rx="25" ry="80" fill="url(#rollGrad)" filter="url(#shadow)"/>
   
-  <!-- Развёртывающаяся бумага -->
-  <rect x="50" y="20" width="0" height="160" fill="url(#paperGrad)" filter="url(#shadow)">
-    <animate attributeName="width" values="0;700" dur="2.5s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
-  </rect>
+  <!-- Развёрнутая бумага -->
+  <rect x="50" y="20" width="700" height="160" fill="url(#paperGrad)" filter="url(#shadow)"/>
   
-  <!-- Текстура бумаги (линии) -->
+  <!-- Правый рулон -->
+  <ellipse cx="750" cy="100" rx="25" ry="80" fill="url(#rollGrad)" filter="url(#shadow)"/>
+  
+  <!-- Текстура -->
   <g opacity="0.1">
-    <line x1="50" y1="50" x2="750" y2="50" stroke="#8b6f47" stroke-width="0.5">
-      <animate attributeName="x2" values="50;750" dur="2.5s" begin="0.5s" fill="freeze"/>
-    </line>
-    <line x1="50" y1="80" x2="750" y2="80" stroke="#8b6f47" stroke-width="0.5">
-      <animate attributeName="x2" values="50;750" dur="2.5s" begin="0.5s" fill="freeze"/>
-    </line>
-    <line x1="50" y1="110" x2="750" y2="110" stroke="#8b6f47" stroke-width="0.5">
-      <animate attributeName="x2" values="50;750" dur="2.5s" begin="0.5s" fill="freeze"/>
-    </line>
-    <line x1="50" y1="140" x2="750" y2="140" stroke="#8b6f47" stroke-width="0.5">
-      <animate attributeName="x2" values="50;750" dur="2.5s" begin="0.5s" fill="freeze"/>
-    </line>
+    <line x1="70" y1="50" x2="730" y2="50" stroke="#8b6f47" stroke-width="0.5"/>
+    <line x1="70" y1="80" x2="730" y2="80" stroke="#8b6f47" stroke-width="0.5"/>
+    <line x1="70" y1="110" x2="730" y2="110" stroke="#8b6f47" stroke-width="0.5"/>
+    <line x1="70" y1="140" x2="730" y2="140" stroke="#8b6f47" stroke-width="0.5"/>
   </g>
   
-  <!-- Текст слогана -->
-  <text x="400" y="85" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#2c3e50" text-anchor="middle" opacity="0">
+  <!-- Текст -->
+  <text x="400" y="85" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#2c3e50" text-anchor="middle">
     Делаю то, что работает сегодня.
-    <animate attributeName="opacity" values="0;1" dur="1s" begin="2s" fill="freeze"/>
   </text>
-  <text x="400" y="125" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#2c3e50" text-anchor="middle" opacity="0">
+  <text x="400" y="125" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#2c3e50" text-anchor="middle">
     Изучаю то, что будет работать завтра.
-    <animate attributeName="opacity" values="0;1" dur="1s" begin="2.5s" fill="freeze"/>
   </text>
   
-  <!-- Декоративные элементы -->
-  <circle cx="750" cy="100" r="8" fill="#e74c3c" opacity="0">
-    <animate attributeName="opacity" values="0;0.8" dur="0.5s" begin="3s" fill="freeze"/>
-    <animate attributeName="r" values="0;8" dur="0.5s" begin="3s" fill="freeze"/>
-  </circle>
-  <circle cx="730" cy="100" r="5" fill="#f39c12" opacity="0">
-    <animate attributeName="opacity" values="0;0.6" dur="0.5s" begin="3.2s" fill="freeze"/>
-    <animate attributeName="r" values="0;5" dur="0.5s" begin="3.2s" fill="freeze"/>
-  </circle>
+  <!-- Декор -->
+  <circle cx="730" cy="100" r="8" fill="#e74c3c" opacity="0.8"/>
+  <circle cx="710" cy="100" r="5" fill="#f39c12" opacity="0.6"/>
 </svg>
-
-> **Делаю то, что работает сегодня.  Изучаю то, что будет работать завтра.**
 
 ---
 
