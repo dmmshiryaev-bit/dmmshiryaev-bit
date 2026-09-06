@@ -1,50 +1,19 @@
 # 👋 Привет, я Дмитрий
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%">
-  <defs>
-    <linearGradient id="paperGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#fef9e7;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#f5e6c8;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="rollGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#d4a574;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#8b6f47;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#d4a574;stop-opacity:1" />
-    </linearGradient>
-    <filter id="shadow">
-      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-opacity="0.3"/>
-    </filter>
-  </defs>
-  
-  <!-- Левый рулон -->
-  <ellipse cx="50" cy="100" rx="25" ry="80" fill="url(#rollGrad)" filter="url(#shadow)"/>
-  
-  <!-- Развёрнутая бумага -->
-  <rect x="50" y="20" width="700" height="160" fill="url(#paperGrad)" filter="url(#shadow)"/>
-  
-  <!-- Правый рулон -->
-  <ellipse cx="750" cy="100" rx="25" ry="80" fill="url(#rollGrad)" filter="url(#shadow)"/>
-  
-  <!-- Текстура -->
-  <g opacity="0.1">
-    <line x1="70" y1="50" x2="730" y2="50" stroke="#8b6f47" stroke-width="0.5"/>
-    <line x1="70" y1="80" x2="730" y2="80" stroke="#8b6f47" stroke-width="0.5"/>
-    <line x1="70" y1="110" x2="730" y2="110" stroke="#8b6f47" stroke-width="0.5"/>
-    <line x1="70" y1="140" x2="730" y2="140" stroke="#8b6f47" stroke-width="0.5"/>
-  </g>
-  
-  <!-- Текст -->
-  <text x="400" y="85" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#2c3e50" text-anchor="middle">
-    Делаю то, что работает сегодня.
-  </text>
-  <text x="400" y="125" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#2c3e50" text-anchor="middle">
-    Изучаю то, что будет работать завтра.
-  </text>
-  
-  <!-- Декор -->
-  <circle cx="730" cy="100" r="8" fill="#e74c3c" opacity="0.8"/>
-  <circle cx="710" cy="100" r="5" fill="#f39c12" opacity="0.6"/>
-</svg>
+# 👋 Привет, я Дмитрий
+
+<div align="center">
+
+══════════════════════════════════════════════════════╗
+║                                                     ║
+║   📜  Делаю то, что работает сегодня.               ║
+║     Изучаю то, что будет работать завтра.           ║
+║                                                      ║
+╚══════════════════════════════════════════════════════╝
+
+</div>
+
+---
 
 ---
 
