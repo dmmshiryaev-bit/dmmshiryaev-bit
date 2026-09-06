@@ -2,7 +2,8 @@
 
 > **Делаю то, что работает сегодня. Изучаю то, что будет работать завтра.**
 
-
+---
+---
 
 ![Вайб-кодер](https://img.shields.io/badge/🎵_Вайб--кодер-Open_Code-8A2BE2?style=for-the-badge)
 ![Статус](https://img.shields.io/badge/🟢_Открыт_к_проектам-да-2ECC71?style=for-the-badge)
